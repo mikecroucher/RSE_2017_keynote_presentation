@@ -1,4 +1,6 @@
 /* Custom colours */
+/* Used this palette as a rough guide: https://www.design-seeds.com/tag/charcoal/page/8/
+'cause you know I love colour palettes */
 $white: #fff;
 $yellow: #FFC300;
 $pale-blue: #C5D4DB;
@@ -15,7 +17,7 @@ $base-font: 'Ropa Sans', sans-serif;
 
 /* Custom text styles */
 /* These are general classes so can be added to
-any text in the slides*/
+any text in the slides e.g. <h2> <style> Fancy thingy </style> </h2>*/
 
 .reveal embossed{
   color: $white;
@@ -28,7 +30,7 @@ any text in the slides*/
   padding: 0 2rem;
 }
 
-/* Adding extra glow class to headings */
+/* Adding extra glow class to headings (nb this is a big glow) */
 .reveal h1,
 .reveal h2,
 .reveal h3,
@@ -50,10 +52,6 @@ any text in the slides*/
     color: darken($yellow, 5%);
     font-weight: bold;
   }
-}
-
-.reveal .controls{
-  color: $pale-blue;
 }
 
 /*Flushing text to either side */

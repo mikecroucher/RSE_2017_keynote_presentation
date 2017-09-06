@@ -1,4 +1,6 @@
 /* Custom colours */
+/* Used this palette as a rough guide: https://www.design-seeds.com/tag/charcoal/page/8/
+'cause you know I love colour palettes */
 /*Custom font*/
 @import url("https://fonts.googleapis.com/css?family=Ropa+Sans");
 .reveal {
@@ -6,7 +8,7 @@
 
 /* Custom text styles */
 /* These are general classes so can be added to
-any text in the slides*/
+any text in the slides e.g. <h2> <style> Fancy thingy </style> </h2>*/
 .reveal embossed {
   color: #fff;
   text-shadow: 0 -3px 0 #303239; }
@@ -16,7 +18,7 @@ any text in the slides*/
   color: #fff;
   padding: 0 2rem; }
 
-/* Adding extra glow class to headings */
+/* Adding extra glow class to headings (nb this is a big glow) */
 .reveal h1.glow,
 .reveal h2.glow,
 .reveal h3.glow,
@@ -34,9 +36,6 @@ any text in the slides*/
   .reveal a:hover {
     color: #e6b000;
     font-weight: bold; }
-
-.reveal .controls {
-  color: #C5D4DB; }
 
 /*Flushing text to either side */
 .right {
