@@ -248,6 +248,11 @@ body {
   border-color: #42affa;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
+.reveal figcaption {
+      display: block;
+      font-size: 0.6em;
+  }
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
