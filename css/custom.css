@@ -1,16 +1,54 @@
-#left {
-  left:-8.33%;
-  text-align: left;
-  float: left;
-  width:50%;
-  z-index:-10;
-}
+/* Custom colours */
+/*Custom font*/
+@import url("https://fonts.googleapis.com/css?family=Ropa+Sans");
+.reveal {
+  font-family: "Ropa Sans", sans-serif; }
 
-#right {
-  left:31.25%;
-  top: 75px;
-  float: right;
-  text-align: center;
-  z-index:-10;
-  width:70%;
-}
+/* Custom text styles */
+/* These are general classes so can be added to
+any text in the slides*/
+.reveal embossed {
+  color: #fff;
+  text-shadow: 0 -3px 0 #303239; }
+
+.reveal glow {
+  text-shadow: 0px 0px 5px #fff;
+  color: #fff;
+  padding: 0 2rem; }
+
+/* Adding extra glow class to headings */
+.reveal h1.glow,
+.reveal h2.glow,
+.reveal h3.glow,
+.reveal h4.glow,
+.reveal h5.glow,
+.reveal h6.glow {
+  text-shadow: 0px 0px 5px #fff, 0 0 30px #C5D4DB;
+  color: #fff;
+  padding: 0 2rem;
+  font-family: "Ropa Sans", sans-serif; }
+
+/* Changing the links colour and behaviour */
+.reveal a {
+  color: #FFC300; }
+  .reveal a:hover {
+    color: #e6b000;
+    font-weight: bold; }
+
+.reveal .controls {
+  color: #C5D4DB; }
+
+/*Flushing text to either side */
+.right {
+  left: 50%;
+  padding: 10px;
+  position: fixed;
+  top: 30%; }
+
+.left {
+  right: 50%;
+  padding: 10px;
+  position: fixed;
+  top: 30%; }
+
+/*# sourceMappingURL=custom.css.map */
