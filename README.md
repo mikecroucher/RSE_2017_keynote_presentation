@@ -1,6 +1,6 @@
 # I, Research Software Engineer
 
-Talk for the 2017 RSE conference in Manchester.
+Talk for the 2017 RSE conference in Manchester.  Slides at https://mikecroucher.github.io/RSE_2017_keynote_presentation/
 
 ## Image Attributions
 
